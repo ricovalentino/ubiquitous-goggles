@@ -1,0 +1,5 @@
+pyarrow.schema(
+          [('gameID', pyarrow.string()), ('sessionID', pyarrow.string()),
+           ('sessionType', pyarrow.string(), ('year', pyarrow.int32()))
+          ]
+      )
